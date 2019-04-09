@@ -1,7 +1,7 @@
 <table class="table table-responsive" id="provinces-table">
     <thead>
         <tr>
-            <th>Title</th>
+            <th>{{__('Title')}}</th>
         <th>Status</th>
         <th>Desc</th>
         <th>User Id</th>

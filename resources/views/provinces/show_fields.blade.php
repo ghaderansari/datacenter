@@ -6,7 +6,7 @@
 
 <!-- Title Field -->
 <div class="form-group">
-    {!! Form::label('title', 'Title:') !!}
+    {!! Form::label('title', __('Title').':') !!}
     <p>{!! $province->title !!}</p>
 </div>
 

@@ -23,3 +23,13 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('provinces', 'ProvinceAPIController');
 
 Route::resource('cities', 'CityAPIController');
+
+Route::resource('connectiontypes', 'ConnectiontypeAPIController');
+
+Route::resource('ostypes', 'OstypeAPIController');
+
+Route::resource('roles', 'RoleAPIController');
+
+Route::resource('logtypes', 'LogtypeAPIController');
+
+Route::resource('vmtypes', 'VmtypeAPIController');

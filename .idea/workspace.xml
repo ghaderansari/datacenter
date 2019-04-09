@@ -2,81 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef9a0da-6684-4443-bb71-96052c75095d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/DataTables/CityDataTable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/CityAPIController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/API/ProvinceAPIController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProvinceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/API/CreateCityAPIRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/API/CreateProvinceAPIRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/API/UpdateCityAPIRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/API/UpdateProvinceAPIRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CreateCityRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CreateProvinceRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateCityRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateProvinceRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Province.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/CityRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/ProvinceRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_04_08_062201_create_provinces_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_04_08_113618_create_cities_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/fa/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/datatables_actions.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/fields.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/show_fields.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cities/table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/provinces/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/provinces/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/provinces/fields.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/provinces/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/provinces/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/provinces/show_fields.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/provinces/table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/city.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/connection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/connectiontype.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/database.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/databasetype.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/domain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/fields_sample.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/help.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/iprange.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/location.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/organization.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/os.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/ostype.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/phonebook.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/phonetype.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/portsoftware.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/province.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/role.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/role_user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/software.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/softwaredesc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/softwareorganization.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/softwareuser.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/vm.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/vmtype.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/webaddress.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/APIs/CityApiTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/APIs/ProvinceApiTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Repositories/CityRepositoryTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Repositories/ProvinceRepositoryTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Traits/MakeCityTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Traits/MakeProvinceTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/logtype.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/provinces/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/provinces/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/provinces/fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/provinces/fields.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/provinces/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/provinces/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/provinces/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/provinces/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/provinces/show_fields.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/provinces/show_fields.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/provinces/table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/provinces/table.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -104,15 +38,15 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="3" />
-          <entry key="json" value="6" />
-          <entry key="php" value="17" />
+          <entry key="json" value="12" />
+          <entry key="php" value="24" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="6" />
-          <entry key="JSON" value="6" />
+          <entry key="Blade" value="13" />
+          <entry key="JSON" value="12" />
           <entry key="PHP" value="11" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
@@ -121,16 +55,16 @@
         <counts>
           <entry key="env" value="4" />
           <entry key="json" value="74" />
-          <entry key="php" value="48" />
-          <entry key="txt" value="10" />
+          <entry key="php" value="120" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="18" />
+          <entry key="Blade" value="90" />
           <entry key="JSON" value="74" />
           <entry key="PHP" value="30" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
     </session>
@@ -141,85 +75,87 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+        <entry file="file://$PROJECT_DIR$/samples/connectiontype.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612" />
+            <state relative-caret-position="51">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="32" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/os.json">
+        <entry file="file://$PROJECT_DIR$/samples/logtype.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/vmtype.json">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/city.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="74" column="61" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/lang/fa/validation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-243">
-              <caret line="46" column="65" lean-forward="true" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/provinces/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="85">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/fields_sample.json">
+        <entry file="file://$PROJECT_DIR$/resources/views/provinces/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="69" column="3" selection-start-line="69" selection-end-line="72" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/resources/views/provinces/show_fields.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/provinces/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/provinces/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/provinces/table.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/provinces/fields.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="87" column="15" lean-forward="true" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/help.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-end-column="108" />
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -228,10 +164,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sele</find>
       <find>گذرواژه با فیلد تکرار مطابقت ندارد.</find>
-      <find>pass</find>
       <find>str</find>
+      <find>sele</find>
+      <find>pass</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -252,6 +188,13 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/provinces/create.blade.php" />
         <option value="$PROJECT_DIR$/samples/morkhasi.json" />
+        <option value="$PROJECT_DIR$/samples/logtype.json" />
+        <option value="$PROJECT_DIR$/resources/views/provinces/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/provinces/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/provinces/fields.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/provinces/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/provinces/show_fields.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/provinces/table.blade.php" />
       </list>
     </option>
   </component>
@@ -362,8 +305,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="37" />
-    <option name="y" value="352" />
+    <option name="x" value="36" />
+    <option name="y" value="351" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -388,7 +331,15 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="provinces" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -436,7 +387,7 @@
       <workItem from="1554614436697" duration="249000" />
       <workItem from="1554614734545" duration="644000" />
       <workItem from="1554622913968" duration="2661000" />
-      <workItem from="1554698087244" duration="8882000" />
+      <workItem from="1554698087244" duration="12000000" />
     </task>
     <task id="LOCAL-00001" summary="hgdgffgsfd">
       <created>1554625286845</created>
@@ -445,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554625286845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add samples">
+      <created>1554707758242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554707758242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12436000" />
+    <option name="totallyTimeSpent" value="15554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,6 +422,27 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.2590604" />
+      <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.25637585" />
+      <window_info id="Favorites" order="2" sideWeight="0.50070924" side_tool="true" weight="0.25637585" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.25637585" />
       <window_info id="Favorites" order="2" sideWeight="0.50070924" side_tool="true" weight="0.25637585" />
@@ -477,13 +456,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -519,7 +498,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hgdgffgsfd" />
-    <option name="LAST_COMMIT_MESSAGE" value="hgdgffgsfd" />
+    <MESSAGE value="add samples" />
+    <option name="LAST_COMMIT_MESSAGE" value="add samples" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -563,14 +543,6 @@
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/os.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/morkhasi.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -578,41 +550,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/help.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/fields_sample.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="69" column="3" selection-start-line="69" selection-end-line="72" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/provinces/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/province.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/fa/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="46" column="65" lean-forward="true" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/city.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/os.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/fields_sample.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="69" column="3" selection-start-line="69" selection-end-line="72" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -623,6 +584,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -630,10 +603,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/fa/validation.php">
+    <entry file="file://$PROJECT_DIR$/samples/help.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="46" column="65" lean-forward="true" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
+        <state>
+          <caret column="3" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/ostype.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/role.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/organization.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/connectiontype.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/logtype.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/vmtype.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/provinces/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/provinces/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/provinces/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/provinces/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/provinces/fields.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/provinces/show_fields.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/provinces/table.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>

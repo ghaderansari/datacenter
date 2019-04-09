@@ -25,3 +25,13 @@ Route::get('/home', 'HomeController@index');
 Route::resource('provinces', 'ProvinceController');
 
 Route::resource('cities', 'CityController');
+
+Route::resource('connectiontypes', 'ConnectiontypeController');
+
+Route::resource('ostypes', 'OstypeController');
+
+Route::resource('roles', 'RoleController');
+
+Route::resource('logtypes', 'LogtypeController');
+
+Route::resource('vmtypes', 'VmtypeController');
