@@ -4,7 +4,7 @@
             <th>{{__('Title')}}</th>
         <th>{{__('Status')}}</th>
         <th>{{__('Desc')}}</th>
-            <th colspan="3">{{('Action')}}</th>
+            <th colspan="3">{{__('Action')}}</th>
         </tr>
     </thead>
     <tbody>

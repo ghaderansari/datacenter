@@ -2,7 +2,7 @@
     <thead>
         <tr>
             <th>Title</th>
-        <th>Status</th>
+        <th>{{__('Status')}}</th>
         <th>Desc</th>
         <th>User Id</th>
         <th>Province Id</th>
