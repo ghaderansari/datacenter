@@ -209,5 +209,7 @@
   "Vm Id": "ماشین مجازی",
   "Organization User": "استفاده کننده",
   "Organization Owner": "مالک",
-  "Online":"آنلاین"
+  "Online":"آنلاین",
+  "Logtypes":"نوع لاگ ها";
+  "Logtype":"نوع لاگ";
 }
