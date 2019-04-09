@@ -3,7 +3,7 @@
 @section('content')
     <section class="content-header">
         <h1>
-            Logtype
+            {{__('Logtype')}}
         </h1>
     </section>
     <div class="content">

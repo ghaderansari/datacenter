@@ -3,7 +3,7 @@
 @section('content')
     <section class="content-header">
         <h1>
-            Logtype
+            {{__('Logtype')}}
         </h1>
     </section>
     <div class="content">
@@ -11,7 +11,7 @@
             <div class="box-body">
                 <div class="row" style="padding-left: 20px">
                     @include('logtypes.show_fields')
-                    <a href="{!! route('logtypes.index') !!}" class="btn btn-default">Back</a>
+                    <a href="{!! route('logtypes.index') !!}" class="btn btn-default">{{__('Back')}}</a>
                 </div>
             </div>
         </div>

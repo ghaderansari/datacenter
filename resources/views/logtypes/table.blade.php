@@ -1,10 +1,10 @@
 <table class="table table-responsive" id="logtypes-table">
     <thead>
         <tr>
-            <th>Title</th>
-        <th>Status</th>
-        <th>Desc</th>
-            <th colspan="3">Action</th>
+            <th>{{__('Title')}}</th>
+        <th>{{__('Status')}}</th>
+        <th>{{__('Desc')}}</th>
+            <th colspan="3">{{('Action')}}</th>
         </tr>
     </thead>
     <tbody>
