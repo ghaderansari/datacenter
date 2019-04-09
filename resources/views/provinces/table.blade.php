@@ -2,10 +2,10 @@
     <thead>
         <tr>
             <th>{{__('Title')}}</th>
-        <th>Status</th>
-        <th>Desc</th>
-        <th>User Id</th>
-            <th colspan="3">Action</th>
+        <th>{{__('Status')}}</th>
+        <th>{{__('Desc')}}</th>
+        <th>{{__('User Id')}}</th>
+            <th colspan="3">{{__('Action')}}</th>
         </tr>
     </thead>
     <tbody>
